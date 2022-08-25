@@ -33,4 +33,14 @@ public class EmpresaService {
         return false;
     }
 
+    //Metodo para eliminar empresa registyrada teniendo el id
+    public boolean deleteEmpresa(Integer id){
+        empresaBikeHouseProject.deleteById(id);
+        if (getEmpresaById(id)!=null){
+            return false;
+        }
+        return true;
+    }
+
+
 }
