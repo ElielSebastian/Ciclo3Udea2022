@@ -46,9 +46,26 @@ public class ControllerFull {
         model.addAttribute("emp",emp);
         return "editarEmpresa";
 
-
     }
 
+    @PostMapping("/ActualizarEmpresa")
+    public String updateEmpresa(Empresa emp){
+        if(empresaService.saveOrUpdateEmpresa(emp)==true){
+            return  "redirect:/verEmpresas";
+        }
+        return "redirect:/EditarEmpresa";
     
+    }
+
+    @GetMapping("/EliminarEmpresa/{id}")
+    public String eliminarEmpresa(@PathVariable Integer id){
+        try {
+            empresaService.deleteEmpresa(id);
+        }catch(Exception e){
+            return "redirect:/EditarEmpresa";
+        }
+        return "redirect:/EditarEmpresa";
+    }
+
 }
 
