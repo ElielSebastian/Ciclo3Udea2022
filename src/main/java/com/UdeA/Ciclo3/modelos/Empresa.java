@@ -1,7 +1,5 @@
 package com.UdeA.Ciclo3.modelos;
 
-import org.hibernate.annotations.GeneratorType;
-
 import javax.persistence.*;
 
 @Entity

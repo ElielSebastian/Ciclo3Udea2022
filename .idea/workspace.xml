@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d78257a-36da-4d01-9659-df657bde4083" name="Changes" comment=" 2.0">
+    <list default="true" id="8d78257a-36da-4d01-9659-df657bde4083" name="Changes" comment="CRUD basico de entidad empresa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/controller/ControllerFull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/controller/ControllerFull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/Empresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/service/EmpresaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/service/EmpresaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/verEmpresas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/verEmpresas.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Jose" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661878654581</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CRUD basico de entidad empresa">
+      <created>1661987161173</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661987161173</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +210,8 @@
     <MESSAGE value="commit 2.0" />
     <MESSAGE value="CRUD basico de la creacion de una empresa" />
     <MESSAGE value=" 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 2.0" />
+    <MESSAGE value="CRUD basico de entidad empresa" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD basico de entidad empresa" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Ciclo3Udea2022$Ciclo3Application.ic" NAME="Ciclo3Application Coverage Results" MODIFIED="1661434257871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

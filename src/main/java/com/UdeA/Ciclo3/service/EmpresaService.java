@@ -25,12 +25,8 @@ public class EmpresaService {
     }
 
     //Metodo para guardar o actualizar objetos de tipo Empresa
-    public boolean saveOrUpdateEmpresa(Empresa empresa){
-        Empresa emp=empresaBikeHouseProject.save(empresa);
-        if (empresaBikeHouseProject.findById(emp.getId())!=null){
-            return true;
-        }
-        return false;
+    public Empresa saveOrUpdateEmpresa(Empresa empresa){
+        return empresaBikeHouseProject.save(empresa);
     }
 
     //Metodo para eliminar empresa registrada teniendo el id
