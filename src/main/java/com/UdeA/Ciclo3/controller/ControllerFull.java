@@ -7,6 +7,7 @@ import com.UdeA.Ciclo3.service.EmpresaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -69,6 +70,11 @@ public class ControllerFull {
     @GetMapping(path = "empleados/{id}")  //Consultar empleado por ID
     public Optional<Empleado> empleadoPorID(@PathVariable("id") Integer id) {
         return this.empleadoService.getEmpleadoById(id);
+    }
+
+    @GetMapping("/enterprises/{id}/empleados")
+    public ArrayList<Empleado> EmpleadoPorEmpresa(@PathVariable ("id") Integer id){
+        return this.empleadoService.obtenerPorEmpresa(id);
     }
 
 }
